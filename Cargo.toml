@@ -1,6 +1,12 @@
 [package]
 name = "sev-snp-launch"
 version = "0.1.0"
+authors = ["The VirTEE Project Developers <virtee-security@redhat.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/virtee/sev-snp-launch"
+description = "Library for Linux SEV-SNP launch APIs"
+readme = "README.md"
+exclude = [".gitignore", ".github/*"]
 edition = "2024"
 
 [dependencies]
